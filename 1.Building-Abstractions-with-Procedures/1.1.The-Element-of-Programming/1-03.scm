@@ -1,4 +1,4 @@
-; Exercise 1-03
+;; Exercise 1-03
 
 (define (sum-of-squares x y)
   (+ (* x x) (* y y)))
