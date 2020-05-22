@@ -16,5 +16,5 @@
 
 ;; (b)
 (define (product-positives n)
-  (define (predicate x) (and (> x 0) (= (gcd i n) 1)))
-  (filtered-accumulater predicate * 1 (lambda (x) x) a (lambda (x) (+ x 1)) n)) 
+  (define (predicate x) (= (gcd i n) 1))
+  (filtered-accumulater predicate * 1 (lambda (x) x) a (lambda (x) (+ x 1)) n))
